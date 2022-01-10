@@ -53,8 +53,10 @@
       color: #467745;
 
       font-family: 'EB Garamond', serif;
+      font-weight:400;
+
       text-align: center;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
 
   }
 
@@ -75,7 +77,8 @@
   #form {
     width: 100%;
     max-width: 520px;
-    padding: 20px;
+    padding: 25px;
+    
     height: auto;
     margin: 0 auto;
   }
@@ -90,8 +93,6 @@ input{
 
     background-color: white;
     padding: 20px;
-
-
 
 }
 
@@ -121,7 +122,7 @@ textarea{
 .cont{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 25px;
 }
 
 .checkbox {
@@ -142,8 +143,9 @@ button{
     margin: 0 auto;
 
     font-family: 'EB Garamond', serif;
-
+    font-weight: 400;
     font-size: 21px;
+
     text-align: center;
     width: 280px;
     height: 80px;
